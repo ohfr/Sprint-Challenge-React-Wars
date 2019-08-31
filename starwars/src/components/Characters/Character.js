@@ -1,6 +1,7 @@
 import React from 'react';
 import CharTitle from './CharTitle';
 import CharBirth from './CharBirth';
+import CharHeight from './CharHeight';
 
 import styled from 'styled-components';
 
@@ -18,6 +19,7 @@ const Character = (props) => {
         <StyledDiv>
             <CharTitle name={props.name} />
             <CharBirth birthYear={props.birthYear} />
+            <CharHeight height={props.height} />
         </StyledDiv>
     )
 }

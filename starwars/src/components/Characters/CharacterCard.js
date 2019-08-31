@@ -14,7 +14,7 @@ const CharacterCard = (props) => {
     return (
         <WrapperDiv>
            {props.chars.map((item, index) => {
-               return <Character key={index} name={item.name} birthYear={item.birth_year} />
+               return <Character key={index} name={item.name} birthYear={item.birth_year} height={item.height} />
            })}
         </WrapperDiv>
     )
